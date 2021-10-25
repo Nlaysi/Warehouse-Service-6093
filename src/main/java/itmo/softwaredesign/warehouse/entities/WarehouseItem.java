@@ -1,5 +1,6 @@
 package itmo.softwaredesign.warehouse.entities;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -16,7 +17,7 @@ import java.util.UUID;
 public class WarehouseItem {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @JsonManagedReference
+    @JsonBackReference
     private UUID id;
 
     @MapsId
