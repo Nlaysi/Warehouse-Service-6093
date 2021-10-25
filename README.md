@@ -1,4 +1,9 @@
 # Warehouse-Service-6093
+## Примеры запросов
+* https://belonet.ru/api/warehouse/getItems
+* https://belonet.ru/api/warehouse/getItemQuantity?id=0be1d0a2-0f69-43f8-bc94-174115eee03d
+
+## Список системных операций
 ### POST /api/warehouse/income
 Регистрирует приход товара на склад
 Параметры запроса:
